@@ -2,7 +2,7 @@
 A simple text file versioning system built in C++.
 
 
-Uses dynamic memory management and object oriented programming.
+Uses dynamic memory management, hashing and object oriented programming.
 
 
 ## Features:

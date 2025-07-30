@@ -78,7 +78,7 @@ public:
     }
 
     void load_program() {
-        ifstream infile("enhancedGit.txt");
+        ifstream infile("text_files/enhancedGit.txt");
 
         string versiontxt;
         string line;
@@ -102,7 +102,7 @@ public:
     void quit() {
         Node *temp = mylist.head;
         
-        ofstream outfile ("enhancedGit.txt");   //saves the versions in this file
+        ofstream outfile ("text_files/enhancedGit.txt");   //saves the versions in this file
 
         while (temp != NULL) {
             outfile << temp->str_data << endl;
@@ -261,7 +261,7 @@ void Git::load(int version) {
     }
 
     ofstream myfile;
-    myfile.open("./file.txt");
+    myfile.open("./text_files/file.txt");
 
     Node *temp = mylist.head;
 
